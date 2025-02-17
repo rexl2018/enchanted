@@ -629,6 +629,7 @@
 				FFF993572BDFBDCC004DCF19 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
 				FF0611E82C04A11800443B33 /* XCRemoteSwiftPackageReference "Magnet" */,
 				FF0611EF2C04A2FB00443B33 /* XCRemoteSwiftPackageReference "Splash" */,
+				A5A05F182D4AB68E00235EDC /* XCRemoteSwiftPackageReference "swift-algorithms" */,
 			);
 			productRefGroup = FFEC328E2B24779A003E5C04 /* Products */;
 			projectDirPath = "";
@@ -871,12 +872,12 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Enchanted/EnchantedDebug.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 37;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Enchanted/Preview Content\"";
-				DEVELOPMENT_TEAM = JDDZ55DT74;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
@@ -923,11 +924,12 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Enchanted/Enchanted.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 37;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Enchanted/Preview Content\"";
-				DEVELOPMENT_TEAM = JDDZ55DT74;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
@@ -990,9 +992,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		A5A05F182D4AB68E00235EDC /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
 		FF0611E82C04A11800443B33 /* XCRemoteSwiftPackageReference "Magnet" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AugustDev/Magnet";
+			repositoryURL = "git@github.com:gluonfield/Magnet.git";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -1000,7 +1010,7 @@
 		};
 		FF0611EF2C04A2FB00443B33 /* XCRemoteSwiftPackageReference "Splash" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AugustDev/Splash";
+			repositoryURL = "git@github.com:gluonfield/Splash.git";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -1040,7 +1050,7 @@
 		};
 		FFD5FAD32B8130CE0055AB51 /* XCRemoteSwiftPackageReference "OllamaKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AugustDev/OllamaKit";
+			repositoryURL = "git@github.com:gluonfield/OllamaKit.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -1048,7 +1058,7 @@
 		};
 		FFF993572BDFBDCC004DCF19 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AugustDev/swift-markdown-ui";
+			repositoryURL = "git@github.com:gonzalezreal/swift-markdown-ui.git";
 			requirement = {
 				branch = main;
 				kind = branch;
